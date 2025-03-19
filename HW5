@@ -1,0 +1,65 @@
+Script started on 2025-03-19 02:23:06+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="133" LINES="11"]
+[0;32m@Devney1983 [0m➜ [1;34m/workspaces/csci-330-homeworks-Devney1983/Hwork2/HomeWork5 [0;36m([1;31mmain[0;36m) [0m$ rlwrap sbcl
+This is SBCL 1.4.3, an implementation of ANSI Common Lisp.
+More information about SBCL is available at <http://www.sbcl.org/>.
+
+SBCL is free software, provided as is, with absolutely no warranty.
+It is mostly in the public domain; some portions are provided under
+BSD-style licenses.  See the CREDITS and COPYING files in the
+distribution for more information.
+[K* [K* [K* (quit)[C[C[Cparse "ixoys")  ;; Should print "Accepted"[C[C[C[24Pload "parse.lisp")[C[C[C[12Pquit))[C[C[Cload "parse.lisp")[C[C[K(load "parse.lisp")
+
+; file: /workspaces/csci-330-homeworks-Devney1983/Hwork2/HomeWork5/parse.lisp
+; in: DEFUN S
+;     (L)
+; 
+; caught STYLE-WARNING:
+;   undefined function: L
+; 
+; compilation unit finished
+;   Undefined function:
+;     L
+;   caught 1 STYLE-WARNING condition
+
+T
+* [K* [K* ()[C[Cp)a)r)s)e) )")")i")x")o")y")s")[C[C[K(parse "ixoys")
+Rejected
+NIL
+* [K* [K* ()[C[Cp)a)r)s)e) )")")o")k")y")b")t")n")[C[C[K(parse "okybtn")
+Rejected
+NIL
+* [K* [K* exit script5[K[C[C[Kexit script
+
+debugger invoked on a UNBOUND-VARIABLE in thread
+#<THREAD "main thread" RUNNING {9461061}>:
+  The variable EXIT is unbound.
+
+Type HELP for debugger help, or (SB-EXT:EXIT) to exit from SBCL.
+
+restarts (invokable by number or by possibly-abbreviated name):
+  0: [ABORT] Exit debugger, returning to top level.
+
+(SB-INT:SIMPLE-EVAL-IN-LEXENV EXIT #<NULL-LEXENV>)
+0] [K0] [K0] 0[K0
+
+* 
+debugger invoked on a UNBOUND-VARIABLE in thread
+#<THREAD "main thread" RUNNING {9461061}>:
+  The variable SCRIPT is unbound.
+
+Type HELP for debugger help, or (SB-EXT:EXIT) to exit from SBCL.
+
+restarts (invokable by number or by possibly-abbreviated name):
+  0: [ABORT] Exit debugger, returning to top level.
+
+(SB-INT:SIMPLE-EVAL-IN-LEXENV SCRIPT #<NULL-LEXENV>)
+0] [K0] [K0] TOPLET[KVEL, TOP[C[C[C[KTOPLEVEL, TOP
+
+* [K* [K* ()[C[Cq)u)i)t)[C[C[K(quit)
+[0;32m@Devney1983 [0m➜ [1;34m/workspaces/csci-330-homeworks-Devney1983/Hwork2/HomeWork5 [0;36m([1;31mmain[0;36m) [0m$ end script
+bash: end: command not found
+[0;32m@Devney1983 [1;31m➜ [1;34m/workspaces/csci-330-homeworks-Devney1983/Hwork2/HomeWork5 [0;36m([1;31mmain[0;36m) [0m$ exit script
+exit
+bash: exit: script: numeric argument required
+
+Script done on 2025-03-19 02:24:35+00:00 [COMMAND_EXIT_CODE="2"]
